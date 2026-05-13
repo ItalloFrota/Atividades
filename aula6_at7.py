@@ -12,3 +12,4 @@ def numero_linhas(n):
 n = int(input("Digite o número de linhas: "))
 resultado = numero_linhas(n)
 for linha in resultado:    print(linha)
+print(f"Total de linhas: {len(resultado)}")
